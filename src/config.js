@@ -9,5 +9,9 @@ export const menus = [
   {
     title: 'FloatBall 悬浮球',
     path: '/FloatBall'
+  },
+  {
+    title: 'PullRefresh 上拉加载',
+    path: '/PullRefresh'
   }
 ]
