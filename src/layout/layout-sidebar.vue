@@ -4,8 +4,8 @@
       class="layout-sidebar-menu"
       :default-active="activePath"
       router>
-      <template v-for="(menu, index) in menuList">
-        <sidebar-item :menu="menu" :key="index"></sidebar-item>
+      <template>
+        <sidebar-item v-for="(menu, index) in menuList" :menu="menu" :key="index"></sidebar-item>
       </template>
     </el-menu>
   </div>
